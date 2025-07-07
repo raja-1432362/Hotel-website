@@ -1,7 +1,3 @@
-Thanks! Now that I’ve reviewed your full project including `index.html`, `style.css`, and `script.js`, here is a **complete and polished `README.md`** file tailored for your GitHub repository. It presents your project with a professional tone, highlights its features, and reflects the technical depth of your implementation.
-
----
-
 # 🌄 Mountview Darjeeling – Luxury Himalayan Retreat
 
 Welcome to **Mountview Darjeeling**, a beautifully crafted and fully responsive hotel website designed for a luxury Himalayan retreat. This project combines elegant visuals, advanced front-end interactions, and a smooth user experience using only HTML, CSS, and JavaScript.
