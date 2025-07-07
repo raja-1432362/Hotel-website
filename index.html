@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience luxury Himalayan retreat at Mountview Darjeeling with panoramic views of Kanchenjunga. Book your stay for an unforgettable experience.">
+    <meta property="og:title" content="Mountview Darjeeling - Luxury Himalayan Retreat">
+    <meta property="og:description" content="Where Luxury Meets the Himalayas - Experience unparalleled comfort with breathtaking views.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3">
+    <meta property="og:url" content="https://mountviewdarjeeling.com">
+    <title>Mountview Darjeeling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-element circle-element" style="top: 15%; left: 5%;"></div>
+    <div class="bg-element circle-element" style="top: 45%; right: 7%; width: 200px; height: 200px;"></div>
+    <div class="bg-element triangle-element" style="bottom: 10%; left: 10%;"></div>
+    <div class="bg-element triangle-element" style="top: 25%; right: 12%; border-bottom-color: var(--accent-teal); transform: rotate(-30deg);"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-mountain logo-icon" aria-hidden="true"></i>
+                <div class="logo-text">
+                    <h1>Mountview Darjeeling</h1>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="menuBtn" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu" role="menubar">
+                    <li role="none"><a href="#home" class="active" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#rooms" role="menuitem">Rooms</a></li>
+                    <li role="none"><a href="#amenities" role="menuitem">Amenities</a></li>
+                    <li role="none"><a href="#gallery" role="menuitem">Gallery</a></li>
+                    <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section - Enhanced with parallax and weather widget -->
+        <section class="hero" id="home">
+            <div class="hero-background"></div>
+            <div class="hero-weather">
+                <div class="weather-icon">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="weather-info">
+                    <h4>Darjeeling</h4>
+                    <p>Sunny, 18°C</p>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>
+                    <span class="script-font">Welcome to</span>
+                    Mountview Darjeeling
+                </h1>
+                <p>Where Luxury Meets the Himalayas - Experience unparalleled comfort with breathtaking views of the Kanchenjunga range</p>
+                <a href="#booking" class="btn hero-btn">Book Your Stay</a>
+            </div>
+            <div class="scroll-down" aria-label="Scroll down to explore">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="intro">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Experience Himalayan Luxury</h2>
+                    <p>Nestled in the heart of Darjeeling, Mountview offers a blend of colonial charm and modern comfort with panoramic views of the world's third highest peak.</p>
+                </div>
+                <div class="intro-grid">
+                    <div class="intro-card">
+                        <i class="fas fa-spa intro-icon" aria-hidden="true"></i>
+                        <h3>Luxury Spa</h3>
+                        <p>Rejuvenate with our signature Himalayan herb treatments in our world-class spa facility.</p>
+                    </div>
+                    <div class="intro-card">
+                        <i class="fas fa-utensils intro-icon" aria-hidden="true"></i>
+                        <h3>Fine Dining</h3>
+                        <p>Experience a culinary journey with locally sourced ingredients and authentic Darjeeling tea.</p>
+                    </div>
+                    <div class="intro-card">
+                        <i class="fas fa-mountain intro-icon" aria-hidden="true"></i>
+                        <h3>Panoramic Views</h3>
+                        <p>Every room offers breathtaking views of the Kanchenjunga range and surrounding tea gardens.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section class="rooms" id="rooms">
+            <div class="container rooms-content">
+                <div class="section-title">
+                    <h2>Luxurious Accommodations</h2>
+                    <p>Choose from our exquisitely designed rooms and suites, each offering a unique perspective of Darjeeling's beauty.</p>
+                </div>
+                
+                <div class="swiper room-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="room-card">
+                                <div class="room-img" style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" role="img" aria-label="Heritage Suite interior"></div>
+                                <div class="room-content">
+                                    <h3>Heritage Suite</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p>Experience colonial elegance with modern comforts in our Heritage Suites, featuring antique furnishings and panoramic mountain views.</p>
+                                    <div class="room-price">₹12,500 / night</div>
+                                    <div class="room-features">
+                                        <div class="feature">
+                                            <i class="fas fa-bed" aria-hidden="true"></i>
+                                            <span>King Size Bed</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-mountain" aria-hidden="true"></i>
+                                            <span>Mountain View</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-hot-tub" aria-hidden="true"></i>
+                                            <span>Jacuzzi</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-wifi" aria-hidden="true"></i>
+                                            <span>Premium WiFi</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn room-detail-btn" data-room="heritage">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="room-card">
+                                <div class="room-img" style="background-image: url('https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" role="img" aria-label="Premium Tea Garden View room"></div>
+                                <div class="room-content">
+                                    <h3>Premium Tea Garden View</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p>Wake up to the lush greenery of Darjeeling's famous tea gardens in this spacious room with a private balcony.</p>
+                                    <div class="room-price">₹9,800 / night</div>
+                                    <div class="room-features">
+                                        <div class="feature">
+                                            <i class="fas fa-bed" aria-hidden="true"></i>
+                                            <span>Queen Size Bed</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-leaf" aria-hidden="true"></i>
+                                            <span>Tea Garden View</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-coffee" aria-hidden="true"></i>
+                                            <span>Tea Tasting</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-wifi" aria-hidden="true"></i>
+                                            <span>Premium WiFi</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn room-detail-btn" data-room="premium">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="room-card">
+                                <div class="room-img" style="background-image: url('https://images.unsplash.com/photo-1582582621959-48d27397dc69?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" role="img" aria-label="Presidential Suite interior"></div>
+                                <div class="room-content">
+                                    <h3>Presidential Suite</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p>The epitome of luxury with separate living and dining areas, a private terrace, and exclusive butler service.</p>
+                                    <div class="room-price">₹22,000 / night</div>
+                                    <div class="room-features">
+                                        <div class="feature">
+                                            <i class="fas fa-bed" aria-hidden="true"></i>
+                                            <span>King Size Bed</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-mountain" aria-hidden="true"></i>
+                                            <span>Panoramic View</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-hot-tub" aria-hidden="true"></i>
+                                            <span>Private Jacuzzi</span>
+                                        </div>
+                                        <div class="feature">
+                                            <i class="fas fa-concierge-bell" aria-hidden="true"></i>
+                                            <span>Butler Service</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn room-detail-btn" data-room="presidential">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next" aria-label="Next slide"></div>
+                    <div class="swiper-button-prev" aria-label="Previous slide"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Amenities Section -->
+        <section class="amenities" id="amenities">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Premium Amenities</h2>
+                    <p>Enjoy exceptional services and facilities designed to make your stay unforgettable.</p>
+                </div>
+                <div class="amenities-grid">
+                    <div class="amenity-card">
+                        <i class="fas fa-spa amenity-icon" aria-hidden="true"></i>
+                        <h3>Luxury Spa</h3>
+                        <p>Traditional Himalayan treatments for ultimate relaxation</p>
+                    </div>
+                    <div class="amenity-card">
+                        <i class="fas fa-swimming-pool amenity-icon" aria-hidden="true"></i>
+                        <h3>Infinity Pool</h3>
+                        <p>Heated pool with stunning mountain views</p>
+                    </div>
+                    <div class="amenity-card">
+                        <i class="fas fa-umbrella-beach amenity-icon" aria-hidden="true"></i>
+                        <h3>Tea Garden Walks</h3>
+                        <p>Guided tours through our private tea gardens</p>
+                    </div>
+                    <div class="amenity-card">
+                        <i class="fas fa-concierge-bell amenity-icon" aria-hidden="true"></i>
+                        <h3>24/7 Concierge</h3>
+                        <p>Personalized service to arrange tours and experiences</p>
+                    </div>
+                    <div class="amenity-card">
+                        <i class="fas fa-parking amenity-icon" aria-hidden="true"></i>
+                        <h3>Valet Parking</h3>
+                        <p>Complimentary valet service for all guests</p>
+                    </div>
+                    <div class="amenity-card">
+                        <i class="fas fa-wifi amenity-icon" aria-hidden="true"></i>
+                        <h3>High-Speed WiFi</h3>
+                        <p>Complimentary high-speed internet throughout the property</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container testimonials-content">
+                <div class="section-title">
+                    <h2>Guest Testimonials</h2>
+                    <p>Hear what our guests have to say about their unforgettable experiences at Mountview Darjeeling.</p>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "The view of Kanchenjunga from our suite was breathtaking. The staff went above and beyond to make our anniversary special with champagne and rose petals!"
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Mumbai, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "The tea tasting experience was a highlight of our trip. The sommelier's knowledge of Darjeeling teas was impressive. We ended up buying several varieties to take home."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Singapore</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "After trekking in the Himalayas, the spa treatments were exactly what we needed. The heated infinity pool with mountain views was the perfect place to relax."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Wilson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Emma Wilson</h4>
+                                <p>London, UK</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section - Fixed with correct image URLs -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Photo Gallery</h2>
+                    <p>Explore the beauty of Mountview Darjeeling through our curated collection of images.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Luxury Suite with Mountain View">
+                        <div class="gallery-caption">Luxury Suite with Mountain View</div>
+                    </div>
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Infinity Pool at Sunset">
+                        <div class="gallery-caption">Infinity Pool at Sunset</div>
+                    </div>
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Fine Dining Experience">
+                        <div class="gallery-caption">Fine Dining Experience</div>
+                    </div>
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Spa & Wellness Center">
+                        <div class="gallery-caption">Spa & Wellness Center</div>
+                    </div>
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Tea Garden Terrace">
+                        <div class="gallery-caption">Tea Garden Terrace</div>
+                    </div>
+                    <div class="gallery-item" 
+                         style="background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80')" 
+                         data-src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         data-caption="Sunrise View from Balcony">
+                        <div class="gallery-caption">Sunrise View from Balcony</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox for Gallery -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <div class="lightbox-content">
+                <img class="lightbox-img" id="lightboxImg" src="" alt="">
+                <div class="lightbox-caption" id="lightboxCaption"></div>
+            </div>
+        </div>
+
+        <!-- Booking Widget -->
+        <section class="booking" id="booking">
+            <div class="container">
+                <div class="booking-container">
+                    <div class="booking-header">
+                        <h3>Book Your Stay</h3>
+                        <p>Experience the magic of Darjeeling with Mountview</p>
+                    </div>
+                    <form class="booking-form" id="bookingForm" action="https://formspree.io/f/mjvnlqyr" method="POST">
+                        <div class="form-group">
+                            <label for="checkin">Check-In</label>
+                            <input type="date" id="checkin" class="form-control" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-Out</label>
+                            <input type="date" id="checkout" class="form-control" name="checkout" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Guests</label>
+                            <select id="guests" class="form-control" name="guests" required>
+                                <option value="1">1 Guest</option>
+                                <option value="2" selected>2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="4+">Family (4+)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="room">Room Type</label>
+                            <select id="room" class="form-control" name="room" required>
+                                <option value="deluxe">Deluxe Mountain View</option>
+                                <option value="heritage">Heritage Suite</option>
+                                <option value="premium">Premium Tea Garden View</option>
+                                <option value="presidential">Presidential Suite</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" class="form-control" name="phone" required>
+                        </div>
+                        <div class="form-footer">
+                            <button type="submit" class="btn">Check Availability</button>
+                            <div class="trust-badges">
+                                <div class="trust-badge">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Secure Booking</span>
+                                </div>
+                                <div class="trust-badge">
+                                    <i class="fas fa-star"></i>
+                                    <span>5-Star Rated</span>
+                                </div>
+                                <div class="trust-badge">
+                                    <i class="fas fa-lock"></i>
+                                    <span>SSL Encrypted</span>
+                                </div>
+                            </div>
+                            <div class="success-message" id="successMessage">
+                                <i class="fas fa-check-circle"></i> Your request has been received! Our team will contact you shortly to confirm your booking.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Map -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Mountview Darjeeling</h4>
+                    <p>Experience unparalleled luxury with breathtaking views of the Himalayas. Our heritage property combines colonial elegance with modern comforts.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Visit our Facebook page"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Visit our Instagram profile"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Visit our Twitter account"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Check our TripAdvisor reviews"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Observatory Hill, Darjeeling, West Bengal 734101</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                            <span>+91 1234567890</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>mountviewdarjeeling@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Rooms & Suites</a></li>
+                        <li><a href="#amenities">Dining</a></li>
+                        <li><a href="#amenities">Spa</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#offers">Special Offers</a></li>
+                    </ul>
+                    <div class="newsletter">
+                        <p>Subscribe to our newsletter</p>
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Your email address" aria-label="Your email address">
+                            <button type="submit" class="newsletter-btn" aria-label="Subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Location Map</h4>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14231.637730026173!2d88.2510986!3d27.035539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e42f1a0d0c3a33%3A0x5b06d4b2d6d1b7d9!2sObservatory%20Hill%2C%20Darjeeling%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1688123456789!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Mountview Darjeeling location">
+                        </iframe>
+                        <div class="map-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mountview Darjeeling. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color:var(--accent-gold)"></i> for Darjeeling</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank" aria-label="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Sticky Book Button -->
+    <a href="#booking" class="sticky-book" aria-label="Book your stay">Book Now</a>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
