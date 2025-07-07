@@ -8,7 +8,7 @@ Welcome to **Mountview Darjeeling**, a beautifully crafted and fully responsive 
 
 > *A showcase of a premium hotel nestled in Darjeeling, with panoramic views of the Kanchenjunga range.*
 
-![Preview](https://mark-05-mount-darjeeling.netlify.app/)
+![Preview]https://mark-05-mount-darjeeling.netlify.app/
 
 ---
 
